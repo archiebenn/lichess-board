@@ -8,7 +8,7 @@ load_dotenv()
 session = berserk.TokenSession(os.getenv("lichess_token"))
 client = berserk.Client(session=session)
 
-# print your profile to confirm it works
+# print profile to confirm it works
 # print(client.account.get())
 
 
