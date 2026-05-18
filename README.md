@@ -20,7 +20,7 @@ https://lichess.org/account/oauth/token/create?scopes[]=challenge:write&scopes[]
 
 
 ## Testing  
-As this was my first time carrying out an electronics project and using a pi/arduino/breadboard, it naturally involved a lot of testing. 
+As this is my first time carrying out an electronics project and using a pi/arduino/breadboard, it naturally involves a lot of trials and testing. 
 
 Below are some main areas I tested out before trying to implement into the full system:  
 
