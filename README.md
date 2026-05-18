@@ -8,9 +8,9 @@ The idea is to have a classic looking wooden board with discreet LEDs allowing t
 - Arduino connected to the rasbpi for controlling the LEDs and hall effect sensors
 - Printed circuit board or breadboard with 64 hall effect sensors and LEDs (one per square)
 - LEDs will display the opponent's move uby lighting up origin and destination squares
-- Hall effect sensors will detect when the user has moved a piece and this will be transmitted back to the game
+- Hall effect sensors will detect when and where the user has moved a piece on the physical boadr and this will be transmitted back to the online game
 
-The aim is to create as discreet a board as possible so that it can be played like normal with others without having a load of flashy LEDs or cables sticking out at all times. This is also our first time trying something like this with electronics so please provide any feedback or guidance if you can see any silly errors! Thanks
+The aim is to create as discreet a board as possible so that it can be played like normal with others without having flashy LEDs or cables protruding out at all times. This is also my first time trying a hardware/electronics project so please provide any feedback or guidance if you can see any errors! 
 
 
 ## Setup
@@ -20,13 +20,15 @@ https://lichess.org/account/oauth/token/create?scopes[]=challenge:write&scopes[]
 
 
 ## Testing  
-As this was my first time carrying out an electronics project and using a pi/arduino/breadboard, it naturally involved a lot of testing. 
+As this is my first time carrying out an electronics project and using a pi/arduino/breadboard, it naturally involves a lot of trials and testing. 
 
 Below are some main areas I tested out before trying to implement into the full system:  
 
 ### Hall Effect Sensor  
 Using a simple breadboard and arduino circuit I wired up the hall effect sensor to activate an LED and print to the CLI when a magnet is detected by the hall effect sensor.  
 A simulation on Wowki is available here (note a button is used in place of a hall effect sensor - pressing it mimics presence of a magnet): https://wokwi.com/projects/458314087442075649  
+
+<img src="images/wowki_hall_effect.png" width="500"> 
 
 ## Photos 
 **Here are some photos from during the prototyping/build of the lichess board:**
