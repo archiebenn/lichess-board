@@ -37,8 +37,15 @@ A simulation on Wowki is available here (note a button is used in place of a hal
 <img src="images/hall_effect_led.jpg" width="10000">  
 
 
-## Prototyping
+## Other images
 **Here are some photos from during the prototyping/build of the lichess board:**
 
-<img src="images/file_led.jpg" width="500">  
+#### Pi and Arduino 
+<img src="images/pi_arduino.jpg" width="400">
+
+#### 8xLED strip for file move detection  
+<img src="images/file_led.jpg" width="400">  
 <em>12/3/26: Setting up the 8xLED strip to light up based on the opponent's move origin and destination file during a live game. Implemented as 3x orange flashes on origin file LED, and a constant green LED on the destination file LED as well as 3x all LED red flashes if the move is a check.</em>
+
+
+
