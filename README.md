@@ -25,7 +25,7 @@ As this is my first time carrying out an electronics project and using a pi/ardu
 Below are some main areas I tested out before trying to implement into the full system:  
 
 ### Hall Effect Sensor  
-Using a simple breadboard and arduino circuit I wired up the hall effect sensor to activate an LED and print to the CLI when a magnet is detected by the hall effect sensor.  
+Using a simple breadboard and arduino circuit I wired up the hall effect sensor to activate an LED and print to the CLI when a magnet is detected by the hall effect sensor. Script path: arduino/hall_sensor_test/hall_sensor_test.ino  
 
 #### Wowki simulation  
 A simulation on Wowki is available here (note a button is used in place of a hall effect sensor - pressing it mimics presence of a magnet): https://wokwi.com/projects/458314087442075649  
