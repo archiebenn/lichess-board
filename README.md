@@ -40,7 +40,7 @@ A simulation on Wowki is available here (note a button is used in place of a hal
 ## Other images
 **Here are some photos from during the prototyping/build of the lichess board:**
 
-#### Pi and Arduino 
+#### Pi, Arduino, and bredaboard
 <img src="images/pi_arduino.jpg" width="400">
 
 #### 8xLED strip for file move detection  
