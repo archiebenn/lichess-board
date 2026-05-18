@@ -32,10 +32,10 @@ A simulation on Wowki is available here (note a button is used in place of a hal
 <img src="images/wowki_hall_effect.png" width="1000"> 
 
 Magnet not present:  
-<img src="../images/hall_off1.jpg" width="350">  
+<img src="images/hall_off1.jpg" width="350">  
 
 Magnet present:  
-<img src="../images/hall_on1.jpg" width="350">
+<img src="images/hall_on1.jpg" width="350">
 
 
 ## Prototyping
