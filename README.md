@@ -8,7 +8,7 @@ The idea is to have a classic looking wooden board with discreet LEDs allowing t
 - Arduino connected to the rasbpi for controlling the LEDs and hall effect sensors
 - Printed circuit board or breadboard with 64 hall effect sensors and LEDs (one per square)
 - LEDs will display the opponent's move uby lighting up origin and destination squares
-- Hall effect sensors will detect when the user has moved a piece and this will be transmitted back to the game
+- Hall effect sensors will detect when and where the user has moved a piece on the physical boadr and this will be transmitted back to the online game
 
 The aim is to create as discreet a board as possible so that it can be played like normal with others without having a load of flashy LEDs or cables sticking out at all times. This is also our first time trying something like this with electronics so please provide any feedback or guidance if you can see any silly errors! Thanks
 
