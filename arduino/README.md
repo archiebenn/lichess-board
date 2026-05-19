@@ -8,7 +8,7 @@ For example, If the arduino detects hall effect on square e2 changing from 'ON' 
 
 Here is a wowki hall effect simulation which I used during testing to wire up the hall effect sensor and the LED strip.  
 
-<img src="../images/wowki_hall_effect.jpg" width="1000">  
+<img src="../images/wowki_hall_effect.png" width="1000">  
 
 The aim was to have a message printed and the LED strip to light up when a magnet is near the hall effect sensor. 
 
