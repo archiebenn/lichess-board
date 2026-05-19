@@ -9,9 +9,8 @@ The aim was to have a message printed and the LED strip to light up when a magne
 Here's a simulation with a button used in place of the hall effect sensor. Pressing the button demonstrates how the circuit would react to a magnet being present: https://wokwi.com/projects/458314087442075649
 
 
-Magnet not present:  
-<img src="../images/hall_off1.jpg" width="350">  
+Magnet not detected vs. detected by hall effect sensor:  
 
-Magnet present:  
-<img src="../images/hall_on1.jpg" width="350">
+<img src="../images/hall_effect_led.jpg" width="1000">  
+
 
