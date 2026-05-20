@@ -31,12 +31,12 @@ For example, If the arduino detects hall effect on square e2 changing from 'ON' 
 
 Using a simple breadboard and arduino circuit I wired up the hall effect sensor to activate an LED and print to the CLI when a magnet is detected by the hall effect sensor. Script path: arduino/hall_sensor_test/hall_sensor_test.ino  
 
-#### Wowki simulation  
+#### Wowki simulation - Arduino and hall-effect LED circuit
 A simulation on Wowki is available here (note a button is used in place of a hall effect sensor - pressing it mimics presence of a magnet): https://wokwi.com/projects/458314087442075649  
 
 <img src="images/wowki_hall_effect.png" width="1000"> 
 
-#### Example of hall effect-activated LED circuit in practice:    
+#### Example of Arduino and hall effect-activated LED circuit in practice:    
 
 <img src="images/hall_effect_led.jpg" width="10000">  
 
