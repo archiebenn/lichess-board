@@ -26,6 +26,28 @@ void setup() {
   strip.show();
 }
 
+void flashLED(int idx) {
+  // flash orange 3 times to show origin square file
+  for (int i = 0; i < 3; i++) {
+    strip.clear();
+    strip.setPixelColor(idx, strip.Color(255, 95, 0));
+    // flash here!
+    strip.show();
+    delay(200);
+    strip.clear();
+    strip.show();
+    delay(200);
+  }
+}
+
+void settleLED(int idx) {
+  // set destination file LED to green and leave it on
+  strip.clear();
+  strip.setPixelColor(idx, strip.Color(0, 255, 0));
+  strip.show();
+}
+
+
 void loop() {
   if (Serial.available()) {
     // read the incoming serial comms message from laptop/pi
@@ -57,23 +79,3 @@ void loop() {
   }
 }
 
-void flashLED(int idx) {
-  // flash orange 3 times to show origin square file
-  for (int i = 0; i < 3; i++) {
-    strip.clear();
-    strip.setPixelColor(idx, strip.Color(255, 95, 0));
-    // flash here!
-    strip.show();
-    delay(200);
-    strip.clear();
-    strip.show();
-    delay(200);
-  }
-}
-
-void settleLED(int idx) {
-  // set destination file LED to green and leave it on
-  strip.clear();
-  strip.setPixelColor(idx, strip.Color(0, 255, 0));
-  strip.show();
-}
