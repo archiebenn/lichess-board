@@ -4,16 +4,15 @@
 
 #include <Adafruit_NeoPixel.h>
 
-// define arduino pins for led strip/hall sensors
+// define constant arduino pins for led strip/hall sensors
 #define HALL_PIN 2
 #define LED_PIN 6
 #define NUM_LEDS 8
 
 Adafruit_NeoPixel strip(NUM_LEDS, LED_PIN, NEO_GRB + NEO_KHZ800);
 
+// run this once:
 void setup() {
-  // put your setup code here, to run once:
-
   // set arduino input D2 pin for reading 
   // D2 connected to output of hall effect on breadboard
   pinMode(HALL_PIN, INPUT);
@@ -48,6 +47,7 @@ void settleLED(int idx) {
 }
 
 
+// loop over this 
 void loop() {
   if (Serial.available()) {
     // read the incoming serial comms message from laptop/pi
