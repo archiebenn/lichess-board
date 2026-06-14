@@ -176,7 +176,7 @@ def submit_my_move(client, game_id, move_handler, event_queue, clock_thread, sto
 
 
 ###
-# game loop function
+# main game loop function
 ###
 # set up start game function that streams game state for a given game id and client
 def game_loop(client, game_id, my_colour):
